@@ -1,0 +1,239 @@
+#Java Werewolf Game Easter Egg mode game file.
+#Texts written by LLamaBoy.
+
+1-WOLF
+Tribble
+
+MANY-WOLVES
+Tribbles
+
+ROLE-WOLF
+Tribble
+
+ROLE-SEER
+Doctor
+
+ROLE-VILLAGER
+Redshirt
+
+STARTGAME
+PLAYER has activated the Secret Star Trek Mode! It's Redshirts vs. Tribbles aboard an abandoned vessel.
+
+STARTGAME-NOTICE
+Ensign PLAYER is organizing an away team.
+
+ADDED
+Added to the game. Your role will be given once registration elapses.
+
+GAME-STARTED
+Welcome, cadet. '/msg BOTNAME join' to enlist in the Federation.
+
+GAME-PLAYING
+An away team is currently on a mission. Please wait for them to return before starting a new mission.
+
+NOT-ENOUGH
+4 members is the Federation minimum for an away team; request denied.
+
+ADD-PRIORITY
+Adding priority players...
+
+TWOWOLVES
+THERE ARE 2 TRIBBLES IN THIS GAME
+
+DAYCHANGE
+Duration of the day now set to TIME seconds.
+
+NIGHTCHANGE
+Duration of the night now set to TIME seconds.
+
+VOTECHANGE
+Duration of the Lynch Vote now set to TIME seconds.
+
+JOIN
+PLAYER has put on his standard issue Federation uniform.
+
+FLEE
+PLAYER escaped on a functioning escape pod.
+
+FLEE-VILLAGER
+PLAYER escaped on a functioning escape pod. They were a human.
+
+FLEE-WOLF
+PLAYER escaped on a functioning escape pod. They were a Tribble.
+
+FLEE-PRIORITY
+PLAYER escaped on a functioning escape pod. PLAYR2 has taken his place.
+
+FLEE-PRIORITY-NOTICE
+PLAYER has left the game. You are to take his place.
+
+DAYTIME
+Team, you now have TIME seconds to discuss with your crewmates who you believe the WOLF to be. After the discussion period, you may vote for who you think is the guilty party.
+
+VOTETIME
+Team, you have TIME seconds to select who you believe to be a Tribble. '/msg BOTNAME vote <player>' with your vote, the player with the majority of the votes will be disposed of.
+
+HAS-VOTED
+PLAYER has voted for PLAYR2!
+
+NO-VOTES
+No votes were cast. It seems this away team have a death wish...
+
+FIRSTNIGHT
+The crew set out on a search of the abandoned vessel, not knowing that they have been infiltrated by an imposter...
+
+NIGHTTIME
+While everyone is uneasy about searching the vessel further, their ship requires more supplies, so everyone parts ways again in search of anything salvagable...
+
+WOLF-INSTRUCTIONS
+Tribble, you have TIME seconds to select someone to ambush and devour.  Type 'msg BOTNAME kill <player>' choose a victim.
+
+WOLVES-INSTRUCTIONS
+Tribbles, you have TIME seconds to agree on someone to ambush and devour. Type 'msg BOTNAME kill <player>' choose a victim.
+
+SEER-INSTRUCTIONS
+Doctor, you have TIME seconds to choose who you wish to scan at the end of the search period. Type 'msg BOTNAME see <player>' to discover their species.
+
+WOLF-CHOICE
+You have chosen an unsuspecting PLAYER to ambush.
+
+WOLVES-CHOICE
+You have chosen PLAYER to ambush. We shall see who your fellow Tribble selects...
+
+WOLVES-CHOICE-OTHER
+PLAYER has chosen to kill PLAYR2.
+PLAYR2 is PLAYER's choice of victim this time.
+
+VILLAGER-ROLE
+You are a regular Federation Away Team member, AKA a Redshirt. You must search the abandoned vessel during the search period, and discuss with the others you think the Tribble(s) may be after each search.
+
+V-ROLE
+You are a Redshirt.
+
+WOLF-ROLE
+You are the infiltrator within the crew, you are a Tribble! Using your latest technology RealRedshirt(tm) suit, you must attempt to exterminate the humans one by one before they discover your plans for this sector.
+
+W-ROLE
+You are a Tribble.
+
+WOLVES-ROLE
+You are an infiltrator within the crew, you are a Tribble! Using your latest technology RealRedshirt(tm) suit, you must work with PLAYER, your companion, in order to exterminate the humans one by one before they discover your plans for this sector.
+
+WS-ROLE
+You are a Tribble. Your counterpart is PLAYER.
+
+SEER-ROLE
+You are the Away Team's doctor. Your medical tricorder has enough energy to scan a single person after every search period, revealing their true biological chemistry.
+
+S-ROLE
+You are the team doctor.
+
+LYNCH-LEFT
+The guilty party has left, no lynching.
+
+VILLAGER-LYNCH
+Sure they've discovered a killer Tribble in their midst, the rest of the crew turn towards PLAYER and draw their phasers. As PLAYER backs into a corner of the room, the phasers bleep as they are set to 'kill'. Within seconds, all that is left is a puddle of organic matter. Rather than the hunk of burnt metal they expected from a robot. "Oops." they exclaim in unison.
+Having decided PLAYER should die, the crew grab him and frog-march him to the weapons bay of the ship. After stuffing him into a torpedo tube, they move to the bridge to watch. One of the crew presses the fire button and everyone watches the screen as PLAYER flies out into space and promptly goes *POP*. Robots don't go *POP*...
+
+WOLF-LYNCH
+Certain they've found the invader and forgetting all human progress in the last 6000 years, the crew capture PLAYER and attempt to rip him limb from limb. The first limb ripped, an arm, produces a spark, and a bunch of cables dangles from it's severed end. After further disassembly, the crew take the now defenceless PLAYER and take turns stepping on him.
+
+SEER-LYNCH
+The crew group together around PLAYER and take a single 'sticky' low yeald explosive from their belts. Simultaniously, they set them, then lob them onto PLAYER. 3 seconds after sticking all over him, they explode, leaving little left but a few circuit boards and wires. Everyone celebrates the destuction of an evil Tribble until someone points out one of the parts look like a medical tricorder display...
+
+IS-LYNCHED
+PLAYER, the ROLE, is lynched!
+
+NO-LYNCH
+Overcome with team spirit, the crew decide no-one should be killed without a conclusive majority of votes.
+
+VILLAGER-KILL
+As the time nears for the team to regroup, an alarm sounds throughout the ship: "Bulkhead breached". Everyone rushes to the engineering room to erect a forcefield around the affected area. Once verified as safe again, the group go to see what had happened. They find PLAYER there, or about half of them, hanging from the wall. It appears the WOLF had pierced the ship and attempted to feed PLAYER through it...
+A shrill scream is heard throughout the deck. The source is revealed to be a team member who went to the turbolifts to access another deck. Looking inside the lift, the remains of PLAYER are visble, all over the interior. After some investigation, it is apparent the WOLF had tampered with the turbolift so that it would travel at 10 times the regular speed, severely jolting anyone who would travel in it.
+On their way back to the rendezvous point, the crew spot two legs sticking out of a bulkhead. They find the other side, and see PLAYER, with a terrified look on their face, also sticking out of the bulkhead. Further examination reveals that the WOLF had initiated a site-to-site transport and beamed PLAYER directly into the wall. It also reveals that human organs don't function when mixed with wall.
+
+SEER-KILL
+As the crew gather at the designated return point after searching the ship, a head-count reveals a missing member. A quick search of the nearby rooms reveal PLAYER, their chest cavity empty, and tufts of fur surrounding the fatal wound. Next to the body is a medical tricorder, reading PLAYER as dead.
+
+IS-KILLED
+PLAYER, the ROLE, has been killed!
+
+NO-KILL
+Upon returning to the rendezvous point, the standard head count is performed. Thankfully, everyone is present and correct. The WOLF didn't strike this time...
+
+NOT-VOTED
+As PLAYER opens their mouth to speak their mind about who is to blame, a Cardassian Puffer-Fly buzzes in to it. As PLAYER discovers, this is not good. As soon as they close their mouth, the fly expands to ten times it's normal size in defense, painting the bulkheads a nice colour of brain.
+
+NOT-VOTED-NOTICE
+You have been removed from the game for not voting for two Lynch Votes in a row.
+
+WOLF-WIN
+As PLAYER vaporizes the last member of the away team with their robot's eye-lasers, they cackle evilly, the way Tribbles do, and return to the Tribble world to inform the Administration that another small part of the Galaxy belongs to the Tribble Empire.
+
+WOLVES-WIN
+With their robot's retractable claws, the Tribbles disembowel the last surviving member of the away team, then return to their home planet to get their next assignment...
+
+VILLAGERS-WIN
+Having successfully eradicated the Tribble threat from the abandoned vessel, the away team collects all the supplies they need for the trip back to Federation Space, and home.
+
+CONGR-VILL
+Congratulations, Redshirts! You win!
+
+CONGR-WOLF
+Congratulations, PLAYER! You win!
+
+CONGR-WOLVES
+Congratulations, Tribbles! You win!
+
+WOLVES-WERE
+The Tribbles were:
+
+SEER-DEAD
+Being a doctor, you should know that being dead impedes your ability to operate your tricorder.
+
+NOT-WOLF
+You are not a Tribble!
+
+WILL-SEE
+Your tricorder will reveal the truth about PLAYER when the team gather again...
+
+NOT-SEER
+You are not the Doctor!
+
+SEER-SEE
+The tricorder displays PLAYER's DNA structure to be consistent with that of a ROLE!
+
+SEER-SEE-KILLED
+Your sudden lack of life seems to have stopped you being able to scan people...
+
+SEER-SEE-TARGET-KILLED
+A quick scan of PLAYER's gutted corpse shows that they are both dead and human.
+
+TALLY
+Tallying Votes...
+
+TIE
+A tie. Randomly choosing one...
+
+DYING-BREATH
+You are allowed a single line as your dying breath.
+
+CHEAT-KICK
+Decomissioned for unbecoming behaviour for a Starfleet officer
+
+BORED
+I'm bored. Anyone else bored?
+Someone type !start. I implore you!
+You know, there's a great game in this channel...
+WAFFLES
+PLAYER finds a shortcut! This wondrous godsend brings them RANDDUR closer to level RANDNUM. Oh, wait, this isn't #idle...
+*yawn*
+Anyone can start a game if they like.
+How about a nice quick game of me?
+Betcha scared of losing. That's why you won't play.
+Wow. Didn't think people were this boring...
+A lynch a day keeps the murderous tendancies away. *nods*
+It's so easy... Happy go-oh lucky...
+Rowr. That's the sound of a werewolf. I thought I'd just remind you.
+
+#end of file

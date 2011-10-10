@@ -1,0 +1,13 @@
+This is a fork of the Werewolf IRC Game found @ http://javatwg.sourceforge.net/
+
+This version includes the following bug and game play fixes:
+* Requires only 4 players to play.
+* Will always start with a night rather than a voting day.
+* Fixed the 'can't vote/kill/see' bug that was caused by improper extra spaces removal.
+* The Bot will now show who the other wolf chose as a victem to his/her brother wolf in a two werewolve game rather than the cryptic 'PLAYER2'.
+
+That's pretty much it for now.
+
+I included my start script for Unix based servers named run.sh and you can also modify the code of the bot in src and compile and install it with compile.sh
+
+Happy Hunting!

@@ -1,0 +1,110 @@
+<title>Werewolf Game IRC Bot Readme</title>
+
+<body bgcolor="#000000" text="#999999">
+<strong> 
+<h1>Werewolf Game Bot Readme. </h1>
+</strong> <strong> 
+<h2><u>What is the Werewolf Game?</u></h2>
+</strong> 
+<p>The Werewolf Game is a social game that has gone through many incarnations. 
+  It started as a party game, where a group of people sat in a circle facing eachother. 
+  Another form of the game has evolved with the emergance of the Internet, which 
+  is played on forums and BBSs. Having recently discovered it, Darkshine and I 
+  decided to make an IRC version, with a bot as moderator. And here it is!</p>
+<p>The basic rules are as follows: a number of people from the group are randomly 
+  selected to be 'Werewolves'. The rest are 'Villagers'. The game is split into 
+  2 parts, night and day. During the night, the werewolf/wolves can secretly select 
+  a single villager to 'eat'. During the day, the victim from the previous night 
+  is revealed and removed from the game. During the day, everyone, including the 
+  werewolves, discuss who they believe the werewolves to be, using some guesswork, 
+  as well as logic and reasoning. At the end of the day, everyone must vote who 
+  they suspect to be a werewolf to be lynched. This continues until one of the 
+  two following winning conditions is satisfied.</p>
+<ul>
+  <li>The Werewolves are equal to the Villagers. (Werewolves win)</li>
+  <li>The Villagers lynch all the Werewolves. (Villagers win)</li>
+</ul>
+<p>All votes for either choosing a victim (Werewolves) or voting someone to lynch 
+  (everyone) are given to a moderator, who keeps everyone's identity secret.</p>
+<p>Various roles have been integrated into the game, including, but not limited 
+  to:</p>
+<ul>
+  <li>Seer - who can select a single person each night to discover their identity 
+    (Werewolf or Villager)</li>
+  <li> Guardian Angel - who can select one person to protect during the night. 
+    If the person is attacked by the werewolves, he survives. If the Guardian 
+    Angel is atacked, he has a 1 in 10 chance to protect himself.</li>
+  <li>Vigilante - A Villager who can choose any person to attack and kill during 
+    the day only once in a game.</li>
+  <li>Psychic - Similar to the Seer, is given information on the Villagers each 
+    night. But in this case, he is only informed how many Werewolves remain. Useful 
+    if the lynched person is a wolf, but the players roles are not revealed with 
+    their death.</li>
+</ul>
+<p>As mentioned, there are many variations in gameplay, with different roles, 
+  as well as rules such as revealing the dead person's role in the game or not, 
+  etc.</p>
+<hr>
+<h2><strong><u>What is the Werewolf Game Bot?</u></strong></h2>
+<p>The Werewolf Game Bot is an IRC bot coded in Java, based on the PircBot framework 
+  found at <a href="http://www.jibble.org">http://www.jibble.org/</a>.<br>
+  It acts as the moderator in instances of the Werewolf Game. It assigns people's 
+  roles in the game, narrates the happenings in the village, times the duration 
+  of the day and night, collects people votes and calculates the results.<br>
+  The rules it follows are the following (based on the rules found <a href="http://www.eblong.com/zarf/werewolf.html">here</a>):</p>
+<ul>
+  <li>Minumum players: 5</li>
+  <li>Maximum players: 12</li>
+  <li>Maximum wolves: 2 (2nd introduced at 8 players)</li>
+  <li>Special roles: Seer</li>
+  <li>Identities revealed on death.</li>
+  <li>Lynched Villagers are permitted a single line of text as their 'dying breath'.</li>
+  <li>If a player doesn't vote for two consecutive rounds, they are automatically 
+    executed. </li>
+</ul>
+<hr>
+<h2><strong><u>What Commands are available?</u></strong></h2>
+<p>There are several commands available to users/players, to control the game.</p>
+<ul>
+  <li>!start - Begins a game, and enters the person who gave the command into 
+    the game.</li>
+  <li>!daytime (x) - (Channel OPs only) Determines the length in seconds of the 
+    day, when people can discuss suspicions etc. If no argument is provided, if 
+    gives the current duration.</li>
+  <li>!nighttime (x) - (Channel OPs only) Determines the length in seconds of 
+    the night, when the werewolf/wolves select their victim and the Seer selects 
+    who to view. If no argument is provided, if gives the current duration.</li>
+  <li>!votetime (x) - (Channel OPs only) Determines the length in seconds of the 
+    Lynch Vote, when people cast their votes on who should be lynched. If no argument 
+    is provided, if gives the current duration.</li>
+  <li>!tie (on/off) - (Channel OPs only) Activates or deactivates the Lynch Tie. 
+    If the tie is activated and there are an equal number of votes for 2 or more 
+    players during the Lynch Vote, one of them will be randomly selected. Otherwise, 
+    no-one will be lynched. If no argument is provided, it gives the current status 
+    of the flag.</li>
+  <li>!shush - Disable Idle chat from the bot</li>
+  <li>!speak - Enable Idle chat from the bot</li>
+  <li>/msg &lt;botname&gt; vote &lt;player&gt; - Casts a vote for &lt;player&gt; 
+    during the Lynch Vote. The player with the majority vote will be lynched. 
+    If there is a tie, refer to the!tie command.</li>
+  <li>/msg &lt;botname&gt; kill &lt;player&gt; - Only werewolves may use this 
+    command at night. Selects a victim for the werewolf to kill during the night.</li>
+  <li>/msg &lt;botname&gt; see &lt;player&gt; - Only the Seer may use this command 
+    at night. Selects a player, whose identity (Villager or Werewolf) will be 
+    revealed to the Seer the following morning.</li>
+  <li>/msg &lt;botname&gt; alive - Provides a list of all players that are still 
+    alive in the current game.</li>
+  <li>/msg &lt;botname&gt; role - Reminds the player of what his role in the game 
+    is. </li>
+</ul>
+<hr>
+<h2><strong><u>Credits</u></strong></h2>
+<p><strong>Coder</strong>: Mark Vine alias LLamaBoy.<br>
+  <strong>Texts/Descriptions Author and Ideas Man</strong>: Alex Denham alias 
+  Darkshine.<br>
+  <strong>Beta Testers</strong>: coolsi, Mas_Tnega, MrDictionary, Icepick, Long_Shoota, 
+  LowStream, VirulentVirus, danv2b, FIREFOX, false (damn your sploit findingness 
+  - and thank you for it), caine, NeoThermic, ScareyedHawk, AgentX, Pathy, DevilX4, 
+  WolfLord, CrazyPixie, Skorp, Xtreme, Zaptan (since you insisted), Deepsmeg and 
+  many more for over 100 hours of play testing. Cheers guys! ^_^</p>
+<p>Many Thanks to Jibbler aka Paul Mutton for creating the original PircBot framework.</p>

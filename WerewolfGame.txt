@@ -1,0 +1,43 @@
+The Werewolf Game IRC Bot
+	by LLamaBoy (v 0.99b)
+=========================
+
+Requirements for running the bot:
+-Java Runtime Enviroment 1.4.2 or higher.
+ (May work with some lower version, not tested.)
+-Internet Access (duh).
+
+Setup and execution:
+-Unzip the contents to a directory of your choice, keeping directory structure intact.
+-Open the werewolf.ini file
+ -Give the bot a name
+ -Provide the address of the network to conenct to
+ -Provide the name of the channel the bot should join
+ -Provide the nick the bot should message to ident it's nick (For channel privledges, such as aop). If you don't want to reg the bot's nick, put "none" in this field.
+ -Provide the command used to authenticate the bot's nick. for example, if you would normally auth with '/msg Nickserv ident <pass>', here you would put 'ident <pass>'
+ -Determine whether debug/file logging is on or off. Logs are saved to a file name wolf.log
+ -Provide a message delay. This is to prevent the bot flooding itself of the server from send too many messages consecutively. 100 usually works, but try increasing it if you have problems.
+ -Give values for the various game durations, determine whether the vote tie is on or off by default and choose whether to enable or disable idle chat from the bot.
+-Run the bot with the following command:
+	javaw -classpath .;lib/pircbot.jar org.jibble.pircbot.llama.werewolf.Werewolf (For Win32)
+	java -classpath .:lib/pircbot.jar org.jibble.pircbot.llama.werewolf.Werewolf [&] (For Linux - the '&' symbol at the end is to run in the background)
+ a batch file is provided for Windows users.
+
+Information on game text files:
+From version 0.99, the game reads the texts for narrations etc. from a .txt in the game dir. The provided wolfgame.txt contains all the texts used in the regular game, each under their own header. If you wish to edit the text, the headers should reamin EXACTLY the same, and a blank line should be between each category of text.
+There are a few strings you can add to lines of text that are replaced dynamically. They are listed here, along with what they are replaced with.
+BOTNAME - replaced with the bot's nick in the channel
+TIME - replaced with the duration of a game segment (day, night or Lynch Vote)
+PLAYER - replaced with a player's name in certain texts (death, game joining, etc.)
+WOLF - replaced with a string designated in the .txt file as either the singular or plural of the 'wolves', depending on the number of 'wolves' in th current game.
+Note: The strings should only be used where they would make sense to be used. For example, putting PLAYER into a line of text under DAYCHANGE, which is used when the day length is changed, will result in the word 'null' in it's place. If you think you are getting a 'null' where a text should go, let me know.
+
+If you have any problems, please email me at cyprusllama@gmail.com or find me onIRC at irc://irc.uplinkcorp.net/werewolf under the nick LLamaBoy.
+
+Thank you for downloading the Werewolf Game Bot
+Hosted at Sourceforge (http://javatwg.sourceforge.net)
+
+Many thanks to Paul Mutton for creating the PircBot framework this is based on.
+Thanks also to Alex Denham for writing the game texts, and all the users on the UplinkIRC network (irc.uplinkcorp.net) for playtesting the bot and putting up with all the bugs.
+
+This bot was developed under the GNU Public License, details found at http://jibble.org/licenses/gnu-license.php

@@ -1,0 +1,240 @@
+#Java Werewolf Game game text file.
+#Texts written by Darkshine.
+
+1-WOLF
+Werewolf
+
+MANY-WOLVES
+Werewolves
+
+ROLE-WOLF
+Werewolf
+
+ROLE-SEER
+Seer
+
+ROLE-VILLAGER
+Villager
+
+STARTGAME
+PLAYER has started a game. Everyone else has TIME seconds to join in the mob. '/msg BOTNAME join' to join the game."
+
+STARTGAME-NOTICE
+PLAYER has started a game!
+
+ADDED
+Added to the game. Your role will be given once registration elapses.
+
+GAME-STARTED
+A game has been started! '/msg BOTNAME join' to join!
+
+GAME-PLAYING
+A game is currently underway. Please wait for it to finish before attempting to join.
+
+NOT-ENOUGH
+Sorry, not enough people to make a valid mob.
+
+ADD-PRIORITY
+Adding priority players...
+
+TWOWOLVES
+THERE ARE 2 WOLVES IN THIS GAME.
+
+DAYCHANGE
+Duration of the day now set to TIME seconds.
+
+NIGHTCHANGE
+Duration of the night now set to TIME seconds.
+
+VOTECHANGE
+Duration of the Lynch Vote now set to TIME seconds.
+
+JOIN
+PLAYER has joined the hunt.
+
+FLEE
+PLAYER has fled.
+
+FLEE-VILLAGER
+PLAYER has fled. They were a Villager.
+
+FLEE-WOLF
+PLAYER has fled. They were a Wolf.
+
+FLEE-PRIORITY
+PLAYER has fled. PLAYR2 has taken his place.
+
+FLEE-PRIORITY-NOTICE
+PLAYER has left the game. You are to take his place.
+
+DAYTIME
+Villagers, you have TIME seconds to discuss suspicions, or cast accusations, after which time a lynch vote will be called.
+
+VOTETIME
+Villagers, you now have TIME seconds to vote for the person you would like to see lynched! Type '/msg BOTNAME vote <player>' to cast your vote. Votes are non retractable!
+
+HAS-VOTED
+PLAYER has voted for PLAYR2!
+
+NO-VOTES
+Nobody voted! The Powers of Good will not like this apparent support for the werewolves...
+
+FIRSTNIGHT
+Night descends on the sleepy village, and a full moon rises. Unknown to the villagers, tucked up in their warm beds, the early demise of one of their number is being plotted.
+
+NIGHTTIME
+As the moon rises, the lynching mob dissipates, return to their homes and settle into an uneasy sleep. But in the pale moonlight, something stirs...
+
+WOLF-INSTRUCTIONS
+WOLF, you have TIME seconds to decide who to attack. To make your final decision type '/msg BOTNAME kill <player>'
+
+WOLVES-INSTRUCTIONS
+WOLF, you have TIME seconds to confer via PM and unanimously decide who to attack. To make your final decision type '/msg BOTNAME kill <player>'
+
+SEER-INSTRUCTIONS
+Seer, you have TIME seconds to PM one name to BOTNAME and discover their true intentions. To enquire with the spirits type '/msg BOTNAME see <player>'
+
+WOLF-CHOICE
+You have chosen PLAYER to feast on tonight.
+
+WOLVES-CHOICE
+You have chosen PLAYER to feast on tonight. We shall see who your brethren selects...
+
+WOLVES-CHOICE-OTHER
+PLAYER has chosen to kill PLAYR2.
+PLAYR2 is PLAYER's choice of victim this night.
+
+VILLAGER-ROLE
+You are a peaceful peasant turned vigilante, a Villager! You must root out the WOLF by casting accusations or protesting innocence at the daily village meeting, and voting who you believe to be untrustworthy during the daily Lynch Vote. Good luck!
+
+V-ROLE
+You are a Villager.
+
+WOLF-ROLE
+You are a prowler of the night, a Werewolf! You must decide your nightly victims. By day you must deceive the villager and attempt to blend in. Keep this information to yourself! Good luck!
+
+W-ROLE
+You are a Werewolf.
+
+WOLVES-ROLE
+You are a prowler of the night, a Werewolf! Your fellow Werewolf is PLAYER. You must confer with them via PM to decide your nightly victims. By day you must deceive the villager and attempt to blend in. Keep this information to yourself! Good luck!
+
+WS-ROLE
+You are a Werewolf. Your counterpart is PLAYER.
+
+SEER-ROLE
+You are one granted the gift of second sight, a Seer! Each night you may enquire as to the nature of one of your fellow village dwellers, and WereBot will tell you whether or not that person is a Werewolf - a powerful gift indeed! But beware revealing this information to the WOLF, or face swift retribution!
+
+S-ROLE
+You are the Seer.
+
+LYNCH-LEFT
+The guilty party has left, no lynching.
+
+VILLAGER-LYNCH
+The air thick with adrenaline, the villagers grab PLAYER who struggles furiously, pleading innocence, but the screams fall on deaf ears. PLAYER is dragged to the stake at the edge of the village, and burned alive. But the villagers shouts and cheers fade as they realise the moon is already up - PLAYER was not a werewolf after all...
+Realising the angry mob is turning, PLAYER tries to run, but is quickly seized upon. PLAYER is strung up to the hanging tree, and a hunter readies his rifle with a silver slug, as the block is kicked from beneath them. But there is a dull snap, and PLAYER hangs, silent, motionless. The silent villagers quickly realise their grave mistake...
+
+WOLF-LYNCH
+After coming to a decision, PLAYER is quickly dragged from the crowd, and dragged to the hanging tree. PLAYER is strung up, and the block kicked from beneath their feet. There is a yelp of pain, but PLAYER's neck doesn't snap, and fur begins to sprout from their body. A gunshot rings out, as a villager puts a silver bullet in the beast's head...
+
+SEER-LYNCH
+PLAYER runs before the mob is organised, dashing away from the village. Tackled to the ground near to the lake, PLAYER is tied to a log, screaming, and thrown into the water. With no means of escape, PLAYER drowns, but as the villagers watch, tarot cards float to the surface and their mistake is all too apparent...
+
+IS-LYNCHED
+PLAYER, the ROLE, is lynched!
+
+NO-LYNCH
+As the sun gets low in the sky, the villagers are unable to reach a decision on who to lynch, and without the momentum of a united mob, the crowd slowly dissipates to take shelter in their homes...
+
+VILLAGER-KILL
+The villagers gather the next morning in the village center, but PLAYER does not appear. The villagers converge on PLAYER's home and find them decapitated in their bed. After carrying the body to the church, the villagers, now hysterical, return to the village center to decide how to retaliate...
+As some villagers begin to gather in the village center, a scream is heard from the direction of PLAYER's house. The elderly villager who had screamed points to the fence, on top of which, the remains of PLAYER are impaled, with their intestines spilling onto the cobbles. Apparently PLAYER was trying to flee their attacker...
+When the villagers gather at the village center, one comes running from the hanging tree, screaming at others to follow. When they arrive at the hanging ree, a gentle creaking echoes through the air as the body of PLAYER swings gently in the breeze, it's arms ripped off at the shoulders. It appears the attacker was not without a sense of irony...
+As the village priest gathers the prayer books for the mornings sermon, he notices a trickle of blood snaking down the aisle.. He looks upward to see PLAYER impaled on the crucifix - the corpse has been gutted. He shouts for help, and the other villagers pile into the church, and start arguing furiously...
+
+SEER-KILL
+The first villager to arrive at the center shrieks in horror - lying on the cobbles is a blood stained Ouija Board, and atop it sits PLAYER's head. It appears PLAYER had been seeking the guidance of the spirits to root out the WOLF, but apparently the magic eight ball didn't see THIS one coming...
+
+IS-KILLED
+PLAYER, the ROLE, has been killed!
+
+NO-KILL
+The villagers gather the next morning in the village center, to sighs of relief - it appears there was no attack the previous night.
+
+NOT-VOTED
+Having defied the powers of Good and Justice for long enough, PLAYER suddenly clutches their chest, before falling to the floor as blood pours from their ears. May that be a lesson to all who attempt to defend the WOLF.
+
+NOT-VOTED-NOTICE
+You have been removed from the game for not voting for two Lynch Votes in a row.
+
+WOLF-WIN
+Having successfully deceived the rest of the village's population, PLAYER the Werewolf, breaks into the final villager's home and rips out their jugular. PLAYER bays at the moon, before setting off to the next village...
+
+WOLVES-WIN
+That night, their plan of deception finally bearing it's fruit, the Werewolves finish off the rest of the human population, and feast, before bounding off together, towards the next village...
+
+VILLAGERS-WIN
+With the beasts slain, the villagers cheer! Their peaceful village is once again free from the scourge of the WOLF!
+
+CONGR-VILL
+Congratulations, Villagers! You win!
+
+CONGR-WOLF
+Congratulations, PLAYER! You win!
+
+CONGR-WOLVES
+Congratulations, Werewolves! You win!
+
+WOLVES-WERE
+The Werewolves were:
+
+SEER-DEAD
+Your link to the living in death is not as great as your link to the dead in life.
+
+NOT-WOLF
+You are not a Werewolf!
+
+WILL-SEE
+You will see the identity of PLAYER upon the dawning of tomorrow.
+
+NOT-SEER
+You are not the Seer!
+
+SEER-SEE
+You find the identity of PLAYER to be ISAWOLF?!
+
+SEER-SEE-KILLED
+It appears the WOLF got to you before your vision did...
+
+SEER-SEE-TARGET-KILLED
+The spirits needn't have guided your sight tonight; Your target was also that of the WOLF
+
+TALLY
+Tallying Votes...
+
+TIE
+A tie. Randomly choosing one...
+
+DYING-BREATH
+You are allowed a single line as your dying breath.
+
+CHEAT-KICK
+No quoting me, cheater.
+
+BORED
+I'm bored. Anyone else bored?
+Someone type !start. I implore you!
+You know, there's a great game in this channel...
+WAFFLES
+PLAYER finds a shortcut! This wondrous godsend brings them RANDDUR closer to level RANDNUM. Oh, wait, this isn't #idle...
+*yawn*
+Anyone can start a game if they like.
+How about a nice quick game of me?
+Betcha scared of losing. That's why you won't play.
+Wow. Didn't think people were this boring...
+A lynch a day keeps the murderous tendancies away. *nods*
+It's so easy... Happy go-oh lucky...
+Rowr. That's the sound of a werewolf. I thought I'd just remind you.
+
+#end of file

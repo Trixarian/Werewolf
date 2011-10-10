@@ -1,0 +1,19 @@
+From 0.97b release:
+Changes:
+-Bot now reads texts from files.
+-Added secret game mode. (Different texts)
+-Values for day night and vote times, and the vote tie condition, are now added to the .ini file.
+-Added idle barks by the bot, when there is no game in progress. These can be disabled by editing the werewolf.ini option 'idlebarks' to off, or by typing !shush/!speak while the bot is online
+-At the end of a game, the voices are removed in groups of 4, a la day/night changes.
+
+Bugfixes:
+-Stopped wolves being able to kill already dead villagers.
+-The bot now sets mode -N on quit (If permitted by the server)
+-If a person leaves after being voted for a lynch, but before the votes are tallied, the bot no longer hangs.
+
+Known Issues:
+-If someone changes their nick after getting a majority vote, but before the tally, they survive, and the bot hangs. A way to resolve this is for the wolf to leave and reenter the channel
+
+Plans for later versions:
+-More file customization possibilities
+-Game stats; Who has been wolf, number of villager/wolf victories, seer survival rate, etc.
