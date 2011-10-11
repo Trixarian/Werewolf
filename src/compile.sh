@@ -1,9 +1,9 @@
 #!/bin/sh
-echo "Compile Wolfbot..."
+echo "Compiling Wolfbot..."
 javac -classpath .:../lib/pircbot.jar *.java
-echo "Done Compiling..."
+echo "Done Compiling!"
 echo "Moving files..."
 mv Vote.class ../org/jibble/pircbot/llama/werewolf/objects/
 mv *.class ../org/jibble/pircbot/llama/werewolf/
 echo "Done Moving!"
-echo "Bot should be compiled and ready now ;)"
+echo "The Bot should be compiled and ready now ;)"
